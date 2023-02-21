@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!--====== Title ======-->
+    <title> La Maison </title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="img/png" />
+    <!--====== Animate Css ======-->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <!--====== Flaticon css ======-->
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!--====== Owl Carousel css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!--====== Nice Select ======-->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!--====== Mapbox ======-->
+    <link rel="stylesheet" href="assets/css/leaflet.css" />
+    <link rel="stylesheet" href="assets/css/mapbox-gl.min.css" />
+    <!--====== Bootstrap Datepicker ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css" />
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+    <!--====== PRELOader ======
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="cssload-container">
+            <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
+        </div>
+    </div>-->
+    <!--====== HEADER START ======-->
+    <header class="header-absolute sticky-header inner-page">
+        <div class="container container-custom-one">
+            <div class="nav-container d-flex align-items-center justify-content-between">
+                <!-- Main Menu -->
+                <div class="nav-menu d-lg-flex align-items-center">
+
+                    <!-- Navbar Close Icon -->
+                    <div class="navbar-close">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    </div>
+
+                    <!-- Off canvas Menu  -->
+                    <div class="toggle">
+                        <a href="#" id="offCanvasBtn"><i class="fal fa-bars"></i></a>
+                    </div>
+                    <!-- Mneu Items -->
+                    <div class="menu-items">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+								
+							</li>
+							<li>
+								<a href="apartment-grid.html">Apartments</a>
+								
+							</li>
+							<li>
+								<a href="about.html">About Us</a>
+								
+							</li>
+
+							<li><a href="places.html">Places Near By</a>                                       
+                                        
+                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- from pushed-item -->
+                    <div class="nav-pushed-item"></div>
+                </div>
+
+                <!-- Site Logo -->
+                <div class="site-logo">
+                    <a href="index.html"><img src="assets/img/gallery/logo.jpg" alt="Logo"></a>
+                </div>
+
+                <!-- Header Info Pussed To Menu Wrap -->
+                <div class="nav-push-item">
+                    <!-- Header Info -->
+                    <div class="header-info d-lg-flex align-items-center">
+                        <div class="item">
+                            <i class="fal fa-phone"></i>
+                            <span>Phone Number</span>
+							<a href="tel:+90898787709">
+								<h5 class="title">+254721621398</h5>
+							</a>
+						</div>
+						<div class="item">
+							<i class="fal fa-envelope"></i>
+							<span>Email Address</span>
+							<a href="mailto:info@Lamaison.co.ke">
+								<h5 class="title">info@Lamaison.co.ke</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navbar Toggler -->
+                <div class="navbar-toggler">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--====== HEADER PART END ======-->
+    <!--====== OFF CANVAS START ======-->
+    <div class="offcanvas-wrapper">
+		<div class="offcanvas-overly"></div>
+		<div class="offcanvas-widget">
+			<a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+			<!-- About Widget -->
+			<div class="widget about-widget">
+				<h5 class="widget-title">About us</h5>
+				<p>
+					La Maison is  A furnished Luxury Apartment for that Road Trip to Naivasha with your Family and Friends.Located in Lake View Estate with the Un Obstructed View of Lake Naivasha.
+				</p>
+			</div>
+			<!-- Nav Widget -->
+			<div class="widget nav-widget">
+				<h5 class="widget-title">Know More</h5>
+				<ul>
+					<li><a href="about.html">About Us</a></li>
+						<!-- 	<li><a href="classification.html">Classification</a></li>-->
+					<li>
+						<a href="places.html">Places Near By</a>
+					<!--	<ul class="submenu">
+							 	<li><a href="places-details.html">Places Details</a></li>
+						</ul>-->
+					</li>
+					<li>
+						<a href="apartment-grid.html">Apartment</a>
+					<!--	<ul class="submenu">
+							 <li><a href="apartment-details.html">Apartment Details</a></li>
+							<li><a href="trending.html">Apartment List 2</a></li>
+							<li><a href="apartment-grid.html">All Our Rooms</a></li>
+								<li><a href="apartment-list.html">Apartment List</a></li>
+						</ul>-->
+					</li>
+					
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<!-- Social Link -->
+			<div class="widget social-link">
+				<h5 class="widget-title">Contact us</h5>
+				<ul>
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-behance"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fab fa-google"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+    <!--====== OFF CANVAS END ======-->
+    <!--====== BREADCRUMB PART START ======-->
+    <section class="breadcrumb-area" style="background-image: url(assets/img/gallery/02.jpg);">
+        <div class="container">
+            <div class="breadcrumb-text">
+                <span>The ultimate luxury</span>
+                <h2 class="page-title">About Us</h2>
+
+                <ul class="breadcrumb-nav">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Apartments</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--====== BREADCRUMB PART END ======-->
+     <!--====== ROOM-DETAILS START ======-->
+     <section class="room-details pt-120 pb-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="deatils-box">
+                        <div class="title-wrap">
+                            <div class="title">
+                                <div class="room-cat">Furnished Apartment</div>
+                                <h2>La Maison</h2>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="thumb">
+                            <img src="assets/img/gallery/lam.jpg" alt="images">
+                        </div>
+                        <p>
+                           In 2022 la Maison Became the First Luxury Apartment to Become an Airbnb in Lakeview Estate Naivasha.Aiming to attract the Traveller Diversity That Naivashas Beautiful Scenaries attract.With Breath taking Views of the KWS Wildlife Reserve, Mount Longonot, Lake Naivasha, Cresent Island and the  Kinangop Hills.La Maison aims to make your Stay Memorable, Exotic and Full of Funtivites.
+                        </p>
+                        <div class="room-fearures clearfix mt-60 mb-60">
+                            <h3 class="subtitle">Amenities</h3>
+                            <ul class="room-fearures-list">
+                                <li><i class="fal fa-air-freshener"></i> Air conditioner</li>
+                                <li><i class="fal fa-wifi"></i>High speed WiFi</li>
+                                <li><i class="fal fa-key"></i>Strong Locker</li>
+                                <li><i class="fal fa-cut"></i>Breakfast</li>
+                                <li><i class="fal fa-guitar"></i>Kitchen</li>
+                                <li><i class="fal fa-lock"></i>Security</li>
+                                <li><i class="fal fa-broom"></i>Cleaning</li>
+                                <li><i class="fal fa-shower"></i>Shower</li>
+                                <li><i class="fal fa-headphones-alt"></i>24/7 Online Support</li>
+                                <li><i class="fal fa-shopping-basket"></i>Grocery Delivery</li>
+                                <li><i class="fal fa-bed"></i>Multiple Rooms</li>
+                                <li><i class="fal fa-users"></i>Expert Team</li>
+                                <li><i class="fal fa-shopping-cart"></i>Ammenities nearby</li>
+                                <li><i class="fal fa-shoe-prints"></i>Slippers </li>
+                                <li><i class="fal flaticon-towel"></i>Towels</li>
+                                <li><i class="fal flaticon-kitchen"></i>Kitchen</li>
+
+                            </ul>
+                        </div>
+                        <p>
+                            We Provide Various Amenities for diffrent poeples needs.
+                        </p>
+                        <div class="testimonials mt-60 mb-20">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="testimonial-box">
+                                        <div class="client-img">
+                                            <img src="assets/img/gallery/Green Modern And Luxury Spa Logo.png" alt="images">
+                                            <span class="check"><i class="fal fa-check"></i></span>
+                                        </div>
+                                        <h3>Gracevilla Stays</h3>
+                                        <span class="clinet-post">Management.</span>
+                                        <p>
+                                            Bed and Breakfast Managemnt is done by Gracevilla Stays.Guest Check in and Check outs
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="testimonial-box">
+                                        <div class="client-img">
+                                            <img src="assets/img/instagram/cleaning.png" alt="images">
+                                            <span class="check"><i class="fal fa-check"></i></span>
+                                        </div>
+                                        <h3>Head of Cleaning</h3>
+                                        <span class="clinet-post">js, </span>
+                                        <p>
+                                            She will be in Charge of Apartment Cleanliness during your stay allowing you to get the Vacation you Deserve, Clean Laundry and Linen Every 2 Days
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="room-rules clearfix mb-60">
+                            <h3 class="subtitle">HOUSE RULES</h3>
+                            <ul class="room-rules-list">
+                                <li>Smoking, Partying and Events to be held on the rooftop but with controlled Music Volume</li>
+                                <li>Check-in time from 12 PM, check-out by 10 AM.</li>
+                                <li>Breakages or Item Loss during stay are Replaced by the Guest</li>
+                                <li>Do not Litter In the Compound</li>
+                                <li>Breakfast Lunch and supper are Offered at an Extra Cost</li>
+                                <li>Payment done during Check-in</li>
+                                <li>No Unregistered Guests</li>
+
+
+                            </ul>
+                        </div>
+                        <div class="cancellation-box clearfix mb-60">
+                            <h3 class="subtitle">Cancellation</h3>
+                            <p>
+                                We Prefer Our Guests to Have their Booking Cancellation 48HRS Before the Check-in to ALlow other Guests to have the Oportunity to book the room.<strong>10% of the Room</strong> if <strong>canceled within</strong> 24 Hrs of Check-in is charged.
+                            </p>
+                        </div>
+
+                        <!--
+                        <div class="room-map mb-60" id="roomMap"></div>
+                        <div class="related-room">
+                            <h3 class="subtitle">Our Apartments</h3>
+                            <div class="row room-gird-loop">
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="room-box mb-30">
+                                        <div class="room-img-wrap">
+                                            <div class="room-img"
+                                                style="background-image: url(assets/img/room/13.jpg);">
+                                            </div>
+                                        </div>
+                                        <div class="room-desc">
+                                            <ul class="icons">
+                                                <li><i class="fal fa-bed"></i></li>
+                                                <li><i class="fal fa-wifi"></i></li>
+                                                <li><i class="fal fa-car"></i></li>
+                                                <li><i class="fal fa-coffee"></i></li>
+                                                <li><i class="fal fa-concierge-bell"></i></li>
+                                                <li><i class="fal fa-compress-arrows-alt"></i></li>
+                                                <li><i class="fal fa-swimmer"></i></li>
+                                            </ul>
+                                            <h4 class="title"><a href="apartment-grid.html">Family Stay</a></h4>
+                            <p>The Family Stay Is a 3 bedroom 2 Baths Furnished Apartment offering the ultimate flexibility in guest accommodation. Holding a Maximum of 7 Guests. The Apartment is Excelent for Families and Friends Vacationing In Naivasha</p>
+                            <span class="price">3 Bed|2 Baths</span>
+										<span class="price">7 Max</span>
+                            <a href="#" class="book-btn">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="room-box mb-30">
+                                        <div class="room-img-wrap">
+                                            <div class="room-img"
+                                                style="background-image: url(assets/img/room/14.jpg);">
+                                            </div>
+                                        </div>
+                                        <div class="room-desc">
+                                            <ul class="icons">
+                                                <li><i class="fal fa-bed"></i></li>
+                                                <li><i class="fal fa-wifi"></i></li>
+                                                <li><i class="fal fa-car"></i></li>
+                                                <li><i class="fal fa-coffee"></i></li>
+                                                <li><i class="fal fa-concierge-bell"></i></li>
+                                                <li><i class="fal fa-compress-arrows-alt"></i></li>
+                                                <li><i class="fal fa-swimmer"></i></li>
+                                            </ul>
+                                            <h4 class="title"><a href="apartment-grid.html">Group of 4</a></h4>
+                            <p>Confrences,Road Trips or Family Travelling The Group Stay Apartment is Perfect for the People Travelling round Naivasha for several Days to Tour Around Naivasha.The Fully Furnished Apartment will Bring you Closer as Travel Buddies</p>
+                            <span class="price">3 Bed|2 Baths</span>
+                            <span class="price">7 Max</span>
+                                <a href="#" class="book-btn">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="room-booking-form">
+                        <h5 class="title">Check Availability</h5>
+                        <form action="#">
+                            <div class="input-group input-group-two left-icon mb-20">
+                                <label for="arrival-date">Check In</label>
+                                <div class="icon"><i class="fal fa-calendar-alt"></i></div>
+                                <input type="text" placeholder="20-6-2020" name="arrival-date" id="arrival-date">
+                            </div>
+                            <div class="input-group input-group-two left-icon mb-20">
+                                <label for="departure-date">Check Out</label>
+                                <div class="icon"><i class="fal fa-calendar-alt"></i></div>
+                                <input type="text" placeholder="30-6-2020" name="departure-date" id="departure-date">
+                            </div>
+                            <div class="input-group input-group-two left-icon mb-20">
+                                <label for="room">Apartments</label>
+                                <select name="room" id="room">
+                                    <option value="1">Couple Suite</option>
+                                    <option value="2" selected>Family Stay</option>
+                                    <option value="4">Group of 4</option>
+                                    <option value="8">Group of 14</option>
+                                    <option value="8">Group of 21</option>
+
+                                </select>
+                            </div>
+                            <div class="input-group input-group-two left-icon mb-20">
+                                <label for="departure-date">Guest</label>
+                                <select name="guest" id="guest">
+                                    <option value="8">8 Guest</option>
+                                    <option value="10" selected>10 Guest</option>
+                                    <option value="12">12 Guest</option>
+                                    <option value="15">15 Guest</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <button class="main-btn btn-filled">check availability</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section> <!--====== ROOM-DETAILS START ======-->
+    <section class="room-section room-grid-style pt-120 pb-120">
+        <div class="container">
+            <div class="row justify-content-center room-gird-loop">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="room-box mb-30">
+                        <div class="room-img-wrap">
+                            <div class="room-img" style="background-image: url(assets/img/gallery/dining\ room.jpg);"></div>
+                        </div>
+                        <div class="room-desc">
+                            <ul class="icons">
+                                <li><i class="fal fa-bed"></i></li>
+                                <li><i class="fal fa-wifi"></i></li>
+                                <li><i class="fal fa-car"></i></li>
+                                <li><i class="fal fa-coffee"></i></li>
+                                <li><i class="fal fa-concierge-bell"></i></li>
+                                <li><i class="fal fa-compress-arrows-alt"></i></li>
+                            </ul>
+                            <h4 class="title"><a href="#">Family Stay</a></h4>
+                            <p>The Family Stay Is a 3 bedroom 2 Baths Furnished Apartment offering the ultimate flexibility in guest accommodation. Holding a Maximum of 7 Guests, 1 living Room and a Modern Kitchen. The Apartment is Excelent for Families and Friends Vacationing In Naivasha</p>
+                            <span class="price">3 Bed|2 Baths</span>
+										<span class="price">7 Max</span>
+                            <a href="BookNow.html" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="room-box mb-30">
+                        <div class="room-img-wrap">
+                            <div class="room-img" style="background-image: url(assets/img/gallery/livingroom.jpg);"></div>
+                        </div>
+                        <div class="room-desc">
+                            <ul class="icons">
+                                <li><i class="fal fa-bed"></i></li>
+                                <li><i class="fal fa-wifi"></i></li>
+                                <li><i class="fal fa-car"></i></li>
+                                <li><i class="fal fa-coffee"></i></li>
+                                <li><i class="fal fa-concierge-bell"></i></li>
+                                <li><i class="fal fa-compress-arrows-alt"></i></li>
+                            </ul>
+                            <h4 class="title"><a href="#">Group Stay</a></h4>
+                            <p>Confrences,Road Trips or Family Travelling The Group Stay Apartment is Perfect for the People Travelling round Naivasha for several Days to Tour Around Naivasha.The Fully Furnished Apartment aims to Bring you Closer as Travel Buddies</p>
+                            <span class="price">3 Bed|2 Baths</span>
+                            <span class="price">7 Max</span>
+                                <a href="BookNow.html" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="room-box mb-30">
+                        <div class="room-img-wrap">
+                            <div class="room-img" style="background-image: url(assets/img/gallery/lovers.jpg);"></div>
+                        </div>
+                        <div class="room-desc">
+                            <ul class="icons">
+                                <li><i class="fal fa-bed"></i></li>
+                                <li><i class="fal fa-wifi"></i></li>
+                                <li><i class="fal fa-car"></i></li>
+                                <li><i class="fal fa-coffee"></i></li>
+                                <li><i class="fal fa-concierge-bell"></i></li>
+                                <li><i class="fal fa-compress-arrows-alt"></i></li>
+                            </ul>
+                            <h4 class="title"><a href="#">Lovers Suite</a></h4>
+                            <p>Honeymoons at La Maison are special because we aim at giving Our Guest a Romantic Escape.We Offer a Luxurious Suite on the 2nd and 3rd Floor for the Love Birds to fall In Love again as your are welcomed with a Lively Staff and the views that Only Few Offer In Naivasha.</p>
+                            <span class="price">3 Bed|2 Baths</span>
+                            <span class="price">7 Max</span>
+                                <a href="BookNow.html" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="room-box mb-30">
+                        <div class="room-img-wrap">
+                            <div class="room-img" style="background-image: url(assets/img/gallery/toddler1.JPG);"></div>
+                        </div>
+                        <div class="room-desc">
+                            <ul class="icons">
+                                <li><i class="fal fa-bed"></i></li>
+                                <li><i class="fal fa-wifi"></i></li>
+                                <li><i class="fal fa-car"></i></li>
+                                <li><i class="fal fa-coffee"></i></li>
+                                <li><i class="fal fa-concierge-bell"></i></li>
+                                <li><i class="fal fa-compress-arrows-alt"></i></li>
+                                <li><i class="fal fa-baby-carriage"></i></li>
+                            </ul>
+                            <h4 class="title"><a href="#">Toddler Friendly Apartment</a></h4>
+                            <p>For Families Travelling with Children Below 3, At La Maison we give the young Parents a Smooth and Memorable Vacation.We Proivde a Baby Cot on Request, Our Chef is well Versed with Preparing Healthy Organic Toddler Meals for your Child</p>
+                            <span class="price">3 Bed|2 Baths</span>
+                            <span class="price">7 Max</span>
+                                <a href="BookNow.html" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="room-box mb-30">
+                        <div class="room-img-wrap">
+                            <div class="room-img" style="background-image: url(assets/img/gallery/bed3.JPG);"></div>
+                        </div>
+                        <div class="room-desc">
+                            <ul class="icons">
+                                <li><i class="fal fa-bed"></i></li>
+                                <li><i class="fal fa-wifi"></i></li>
+                                <li><i class="fal fa-car"></i></li>
+                                <li><i class="fal fa-coffee"></i></li>
+                                <li><i class="fal fa-concierge-bell"></i></li>
+                                <li><i class="fal fa-compress-arrows-alt"></i></li>
+                                <li><i class="fal fa-poll-people"></i></li>
+                            </ul>
+                            <h4 class="title"><a href="#">Group Of 14</a></h4>
+
+                            <p>The Group of 14 gets 2 fully Furnished Apartments on the same Block giving Our Guests 2 kitchens, 2 living Rooms 6 bedrooms Allowing you to Cost Share with your Team.</p>
+                            <span class="price">3 Bed|2 Baths</span>
+                            <span class="price">7 Max</span>
+                                <a href="BookNow.html" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="room-box mb-30">
+                        <div class="room-img-wrap">
+                            <div class="room-img" style="background-image: url(assets/img/gallery/21\ \(1\).jpg);"></div>
+                        </div>
+                        <div class="room-desc">
+                            <ul class="icons">
+                                <li><i class="fal fa-bed"></i></li>
+                                <li><i class="fal fa-wifi"></i></li>
+                                <li><i class="fal fa-car"></i></li>
+                                <li><i class="fal fa-coffee"></i></li>
+                                <li><i class="fal fa-concierge-bell"></i></li>
+                                <li><i class="fal fa-compress-arrows-alt"></i></li>
+                                <li><i class="fal fa-poll-people"></i></li>
+                            </ul>
+                            <h4 class="title"><a href="#">Group Of 21</a></h4>
+                            <p>The Group of 21 gets 3 fully Furnished Apartments on the same Block giving Our Guests 3 kitchens, 3 living Rooms 9 bedrooms Allowing you to Cost Share with your Team.</p>
+                            <span class="price">3 Bed|2 Baths</span>
+                            <span class="price">7 Max</span>
+                                <a href="BookNow.html" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+    <!--====== ROOM-DETAILS END ======-->
+    <!--====== Back to Top ======-->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fal fa-angle-double-up"></i>
+    </a>
+    <!--====== FOOTER PART START ======-->
+    <footer>
+        <div class="footer-subscibe-area pt-120 pb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="subscribe-text text-center">
+                            <div class="footer-logo mb-45">
+                                <img src="assets/img/gallery/logo.jpg" alt="images">
+                            </div>
+                            <p>
+                                Subscribe to Our News Letter in your E-Mail to get the Latest Accomodation Offers, need to Knows and Pomotion Emails.
+
+                            </p>
+                            <form action="#" class="subscribe-form mt-50">
+                                <input type="email" placeholder="Enter your email address">
+                                <button type="submit">subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area pt-20 pb-20">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5 order-2 order-md-1">
+                        <p class="copyright-text">copyright by@ AnonymousWebdevs 2023</p>
+                    </div>
+                    <div class="col-md-7 order-1 order-md-2">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--====== FOOTER PART END ======-->
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--====== inview js ======-->
+    <script src="assets/js/jquery.inview.min.js"></script>
+    <!--====== counterup js ======-->
+    <script src="assets/js/jquery.countTo.js"></script>
+    <!--====== Nice Select ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--====== Bootstrap datepicker ======-->
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <!--====== Wow JS ======-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--====== Mapbox Map ======-->
+  	<script src="assets/js/leaflet.js"></script>
+  	<script src="assets/js/mapbox-gl.min.js"></script>
+  	<script src="assets/js/map.js"></script>
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
